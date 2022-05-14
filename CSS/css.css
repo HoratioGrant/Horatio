@@ -53,7 +53,9 @@ body{
     background-repeat: no-repeat;
    
 }
-
+#LinkedIn{
+    visibility:hidden;
+}
 nav li{
     display: block;
     color: rgb(61, 51, 41);
@@ -91,5 +93,3 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
-

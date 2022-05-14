@@ -1,10 +1,4 @@
-<?php 
-/*
-Horatio Grant
-Personal Webpage
-2022-05-12
-*/
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +42,7 @@ Personal Webpage
 
     <div class="Contact">
         <h2 id="Contact">Contact</h2>       
-            <p><?php include('./text/ContactInfo.txt') ?></p>
+            <a href="https://www.linkedin.com/in/horatio-grant-3a4234220/" target="_blank"><img id="LinkedIn" src="./images/LinkedIN.png" alt="LinkedIn"></a>
             
         
     </div>
