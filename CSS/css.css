@@ -1,0 +1,95 @@
+body{
+   
+    background-image: url("../images/bg.png");
+    background-color: rgb(223, 200, 172);
+    background-repeat: no-repeat;
+    background-size: 100vw; 
+    margin: 0;
+}
+
+
+.header{
+    position: absolute;
+    top: 30vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);  
+    
+}
+
+.header h1{
+
+    font-style: normal;
+}
+.header h2{
+    font-style: oblique;
+}
+
+.work{
+    position: absolute;
+    top: 45vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    padding: 0.25em;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: rgb(0, 0, 0);
+    border-left: 0em;
+    border-right: 0em;
+}
+
+.work:hover{
+    border-color: rgb(247, 229, 171);
+}
+.nav{
+  
+    position: absolute;
+    left:0;
+    list-style-type: none;
+    padding: 0.5em;  
+    padding-left: 0em; 
+    
+    height: 99vh;
+    background-color: blanchedalmond; 
+    background-repeat: no-repeat;
+   
+}
+
+nav li{
+    display: block;
+    color: rgb(61, 51, 41);
+    padding: 1em;
+    padding-left: 1em;
+}
+
+
+nav li:hover{
+background-color:rosybrown;
+}
+
+.aboutMe{
+position: absolute;
+top: 130vh;
+height: 100vh;
+width: 100vw;
+text-align: left;
+}
+
+.aboutMe h2{
+text-align: center;
+}
+
+
+.Contact{
+    position: absolute;
+    top: 200vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
