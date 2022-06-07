@@ -92,7 +92,7 @@ background-color:rosybrown;
      height: 7vh;
      width: 100vw;
      background-color: #4a3934; 
-     background-repeat: no-repeat;
+    
      visibility: hidden;
    
 }
@@ -182,7 +182,7 @@ text-align: center;
 .Social{
     
     top: 200vh;
-    height: 100vh;
+    height: 45vh;
     
     padding: 0;
     }

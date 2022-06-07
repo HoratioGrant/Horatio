@@ -1,0 +1,57 @@
+body{
+    background-image:url("../images/dark_cubes.jpg"); 
+    background-size: 100vw; 
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0;
+}
+.website{
+    z-index: 1;
+    width: 30vw;
+    height: 30vh;
+    border-style: solid;
+    border-color: antiquewhite;
+    
+    
+}
+
+header h1{
+color: beige;
+text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    color: beige;
+    
+  }
+  .grid-item {
+   padding-bottom: 1vw;
+    font-size: 30px;
+    text-align: center;
+
+    
+  }
+
+
+nav{
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    list-style-type: none;
+    height: 7vh;
+    width: 100vw;
+    background-color: #acacac6c; 
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    color: rgb(226, 194, 161);
+    padding: 2vh;
+    
+    text-size-adjust: 1vh;
+}
+a{
+    color: black;
+}

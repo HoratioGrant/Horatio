@@ -23,9 +23,9 @@ Personal Webpage
     <h2> Software Developer </h2>
     
     </div>
-    <div class="work">
-    <a href="portfolio.php"><p>View My Work ➜</p> </a>
-    </div>
+    <a href="portfolio.php"><div class="work">
+    <p>View My Work ➜</p> 
+    </div></a>
     
     <div class="nav"> <!-- nav -->
     <nav id="Navigation" >
