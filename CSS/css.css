@@ -5,7 +5,20 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw; 
     margin: 0;
+    padding: 0%;
+    z-index: 0;
+    overflow-x:hidden;
+    
 }
+
+#crosspoint{
+   
+width: 100vw;
+height: 10vh;
+position: absolute;
+top: 100vh;
+}
+
 
 
 .header{
@@ -28,7 +41,7 @@ body{
     position: absolute;
     top: 45vh;
     left: 50vw;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
     padding: 0.25em;
     border-style: solid;
     border-radius: 1em;
@@ -40,39 +53,73 @@ body{
 .work:hover{
     border-color: rgb(247, 229, 171);
 }
-.nav{
+
+/*changing nav */
+    /*nav left */
+#Navigation{
   
     position: absolute;
-    left:0;
+   top: 0vh;
+    left: 0vw;
     list-style-type: none;
-    padding: 0.5em;  
-    padding-left: 0em; 
-    
-    height: 99vh;
+    height: 100vh;
+    width: 10vw;
     background-color: blanchedalmond; 
     background-repeat: no-repeat;
-   
 }
-#LinkedIn{
-    visibility:hidden;
-}
-nav li{
+#Navigation li{
+    
     display: block;
-    color: rgb(61, 51, 41);
-    padding: 1em;
-    padding-left: 1em;
+  color: rgb(61, 51, 41);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  text-size-adjust: 1vh;
 }
 
 
-nav li:hover{
+#Navigation li:hover{
 background-color:rosybrown;
 }
+/*nav left */
 
+/*nav top */
+#Navigation2 {
+    z-index: 1;
+    position: fixed;
+    top: 0vh;
+     list-style-type: none;
+     height: 7vh;
+     width: 100vw;
+     background-color: #4a3934; 
+     background-repeat: no-repeat;
+     visibility: hidden;
+   
+}
+#Navigation2 li{
+    display: inline;
+    color: rgb(226, 194, 161);
+    padding: 2vh;
+    
+    text-size-adjust: 1vh;
+ 
+}
+
+
+#Navigation2 li:hover{
+    background-color:rgb(175, 110, 67);
+}
+
+/*nav top */
+
+/*changing nav */
+    
 .aboutMe{
 position: absolute;
 top: 130vh;
+
 height: 100vh;
-width: 100vw;
+width: 99vw;
 text-align: left;
 }
 
@@ -80,12 +127,63 @@ text-align: left;
 text-align: center;
 }
 
+.aboutMe h3{
+     font-size: 2vw;
+    color: bisque;
 
-.Contact{
-    position: absolute;
+    top: 10vh;
+    left: 0vw;
+    
+    background-color:rgb(175, 110, 67,0.7);
+     border-style: hidden;
+     border-bottom-right-radius: 1em;
+     border-top-right-radius: 1em;
+    padding-left: 1vw;
+    text-align: right;
+     padding: 2vh;
+    }
+    #title_sum{
+    width: 15vw;  
+}
+#title_skill{
+    width: 10vw;  
+}
+#title_social{
+    width: 5vw;  
+}
+
+.sum{
+    margin-left: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#sumExtra{
+    display:none;
+    
+}
+
+#moreButton{
+    
+    border: none;
+    color: black;
+ background-color: blanchedalmond;
+
+   
+    text-align: center;
+  
+    display: inline-block;
+    font-size: 1vw;
+    
+    
+    
+}
+
+.Social{
+    
     top: 200vh;
     height: 100vh;
-    margin: 0;
+    
     padding: 0;
     }
 
@@ -93,3 +191,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
+#LinkedIn{
+    width: 5vw;
+}
+

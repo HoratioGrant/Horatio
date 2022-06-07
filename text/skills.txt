@@ -1,11 +1,7 @@
 Java <br> 
-
+C# <br> 
 HTML <br> 
-
 CSS <br>  
-
 JavaScript <br> 
-
 PHP <br> 
-
 SQL <br> 
