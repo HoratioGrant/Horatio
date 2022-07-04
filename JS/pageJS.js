@@ -37,8 +37,8 @@ function isInViewport(element) {//checks to see if element can be seen
     var rect = element.getBoundingClientRect();
     
     return (
-        rect.bottom >= 0 &&
-        rect.right >= 0 &&
+        rect.bottom >= 50 &&
+        rect.right >= 10 &&
         rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.left <= (window.innerWidth || document.documentElement.clientWidth)
     );

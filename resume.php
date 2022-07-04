@@ -12,7 +12,7 @@ Personal Webpage
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Horatio Grant</title>
     <link rel="stylesheet" href="./CSS/css.css">
    
 </head>
@@ -26,6 +26,8 @@ Personal Webpage
     <a href="portfolio.php"><div class="work">
     <p>View My Work ➜</p> 
     </div></a>
+
+    <div id="background"></div>
     
     <div class="nav"> <!-- nav -->
     <nav id="Navigation" >
@@ -64,8 +66,8 @@ Personal Webpage
     <div class="Social" id="contact">
         <h3 id="title_social">Social</h3>
             <p class="sum"><?php include('./text/ContactInfo.txt') ?></p>      
-            <a class="sum" href="https://www.linkedin.com/in/horatio-grant-3a4234220/" target="_blank"><img id="LinkedIn" src="./images/linkedin.png" alt="LinkedIn"></a>
-            <a class="sum" href="https://www.linkedin.com/in/horatio-grant-3a4234220/" target="_blank"><img id="LinkedIn" src="./images/gmail.png" alt="LinkedIn"></a>
+            <a class="sum" href="https://www.linkedin.com/in/horatio-grant-3a4234220/" target="_blank"><img id="LinkedIn" src="https://i.ibb.co/Cw0KWSF/linkedin.png" alt="LinkedIn"></a>
+            <a class="sum" href="https://www.linkedin.com/in/horatio-grant-3a4234220/" target="_blank"><img id="LinkedIn" src="https://i.ibb.co/hg7ggzf/gmail.png" alt="Gmail"></a>
             
         
     </div>

@@ -21,14 +21,14 @@
                 src="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php"   title="PalarcheCapital"> </iframe>
             </a>    
             <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank">
-                <br> <button>Visit Website</button></a>
+                <br> <button class="link" >Visit Website</button></a>
 </div>
    <div class="grid-item">
        <a href="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assignment4/ass4in.php"><iframe class="website" id="SQL_Assignment" scrolling="no"
             src="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assignment4/ass4in.php"   title="School SQL Assignment"> </iframe>
         </a>
         <a href="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assignment4/ass4in.php" target="_blank">
-        <br> <button>Visit Website</button></a>
+        <br> <button class="link" >Visit Website</button></a>
    </div>
    <div class="grid-item"></div>
    <div class="grid-item">
@@ -36,13 +36,13 @@
             src="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assign1/"   title="RPS"> </iframe>
         </a>
         <a href="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assign1/" target="_blank">
-        <br> <button>Visit Website</button></a>
+        <br> <button class="link" >Visit Website</button></a>
    </div>
  
    <nav>
         <ul id="nav">
            <a href="resume.php"><li>HomePage</li></a>
-            <li>HomePage</li>
+            
         </ul>
     </nav>
 </body>
