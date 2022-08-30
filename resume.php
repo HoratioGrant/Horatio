@@ -3,7 +3,7 @@
 Horatio Grant
 Personal Webpage
 2022-05-12
-*/
+
 
 
 ob_start();
@@ -61,7 +61,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     }
 }
 }
-
+*/
 ?>
 
 <!DOCTYPE html>
@@ -98,83 +98,98 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     <div > <!-- nav -->
     <nav class="nav" id="Navigation" >
         <ul>
-           <a href="resume.php"> <li>Home</li></a>
-           <a href="#AboutMe"> <li>Hire Me</li></a>
-           <a href="portfolio.php"><li>Portfolio</li></a><!-- Another Website that displays school work and personal Projects -->
+         
+           <a href="#AboutMe"> <li>About Me</li></a>
+                <div class="dropdown">
+          <a href="portfolio.php"><li class="dropbtn">Projects</li></a><!-- Another Website that displays school work and personal Projects -->
+                <div class="dropdown-content">
+                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank">Palarche Capital</a>
+                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank">L_rdFlacko</a>
+                </div>
+        </div> 
+                 
           <a href="https://github.com/HoratioGrant/Horatio" target="_blank">  <li>Source Code</li></a><!-- github stuff -->
            <a href="#contact"> <li>Contact</li> </a>
         </ul>
      </nav>
+
+  
      <nav class="nav" id="Navigation2">
         <ul>
            <a href="resume.php"> <li>Home</li></a>
            <a href="#AboutMe"> <li>About Me</li></a>
-           <a href="portfolio.php"><li>Portfolio</li></a><!-- Another Website that displays school work and personal Projects -->
+           <div class="dropdown">
+          <a href="portfolio.php"><li class="dropbtn">Projects</li></a><!-- Another Website that displays school work and personal Projects -->
+                <div class="dropdown-content2">
+                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank">Palarche Capital</a>
+                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank">L_rdFlacko</a>
+                </div>
+        </div> 
           <a href="https://github.com/HoratioGrant/Horatio" target="_blank">  <li>Source Code</li></a><!-- github stuff -->
-           <a href="#Contact"> <li>Contact</li> </a>
+           <a href="#contact"> <li>Contact</li> </a>
         </ul>
      </nav>
     </div>
    
   
 
-    <div class="aboutMe text" >
-<h3 id="title_skill">Skills</h3>
+    <div class="aboutMe text " id="AboutMe" >
+        <h3 class="center title"id="title_skill">Skills</h3>
 
-<div class="grid-container">
-        <div class="grid-item">
-            <p>Programing Languages:</p>
-        </div>
+            <div class="grid-container center">
+            <div class="grid-item">
+                <p>Programing Languages:</p>
+            </div>
 
-        <div class="grid-item">
-            <p>Software Familiar with:</p>
-        </div>
+            <div class="grid-item">
+                <p>Software Familiar with:</p>
+            </div>
 
-        <div class="grid-item">
+            <div class="grid-item">
                  <p ><?php include('./text/skills.txt') ?></p>
-        </div>
+            </div>
 
-        <div class="grid-item">
+            <div class="grid-item">
                  <p ><?php include('./text/programs.txt')?></p>
-        </div>
+            </div>
       
-     </div>      
+        </div>      
             
 
-    <div class="Social" id="contact" class="text">
-        <h3 id="title_social">Connect with Me</h3>
+        <div class="Social " id="contact" class="text">
+            <h3 class="center title" id="title_social">Connect with Me</h3>
 
-        <form action="<?=$_SERVER['PHP_SELF']?>" autocomplete="off" method="POST">
-        <div>
+        <form  action="<?=$_SERVER['PHP_SELF']?>" autocomplete="off" method="POST">
+        
+        <div class="grid-container center">
+            <div class="grid-item">
                 
                 <input class="inp" type="text" name="input_name" placeholder="Name">
             </div>
-             <div>
+            <div class="grid-item">
              
-                <input class="inp" type="text" name="input_email" placeholder="Email">
+               <input class="inp" type="text" name="input_email" placeholder="Email">
             </div>
-            <div>
+            <div class="grid-item">
                
                 <input class="inp" type="text" name="input_message" placeholder="Message">
             </div>
-            <div>
-                <input class="sub" type="submit" value="Send">
-                
+        </div>
+             <div class="below center" >
+                <input class="sub center " type="submit" value="Send">
+                <p>Or Contact me on <a href="https://www.linkedin.com/in/horatio-grant-3a4234220/" target="_blank"><b>LinkedIN</b></a> or my <?php include('./text/ContactInfo.txt') ?> </p>
             </div>
-    
-    </form>
-                
-            <a href="https://www.linkedin.com/in/horatio-grant-3a4234220/" target="_blank"><img id="LinkedIn" src="https://i.ibb.co/Cw0KWSF/linkedin.png" alt="LinkedIn"></a>
-         
+           
             
         
+        </form>
+                
+         
     </div>
     
 </div>
 
-<footer>
-    <p ><?php include('./text/ContactInfo.txt') ?></p>  
-</footer>
+
     
 </body>
 </html>

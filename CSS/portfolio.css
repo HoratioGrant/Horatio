@@ -1,35 +1,33 @@
 body{
-    background-image:url("https://i.ibb.co/ZVh7fDg/pawel-czerwinski-kr-A9znd-Plr-A-unsplash.jpg"); 
-    background-size: 100vw; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: black;
+  
+    background-color: rgb(231, 231, 231);
     margin: 0;
+    color: black;
 }
 .website{
     z-index: 1;
     width: 30vw;
     height: 30vh;
-    border-style: solid;
-    border-color: antiquewhite;
-    
+    border: none;
     
 }
 
 header h1{
-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 text-align: center;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto ;
-    color: beige;
+    color: black;
     
   }
   .grid-item {
    padding-bottom: 1vw;
     font-size: 30px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     
   }
@@ -45,14 +43,14 @@ nav{
     background-color: #acacac6c; 
     text-align: center;
 
-    transition: all 1scvhjfcuyjk;
+    transition: all 1;
     
 }
 
 #nav{
     
     display: inline;
-    color: rgb(226, 194, 161);
+  
     padding: 2vh;
     
     text-size-adjust: 1vh;
@@ -66,5 +64,8 @@ a {
 
     .link{
         border-radius: 1em;
-        border-color: bisque;
-    }
+        border-color: black;
+        border: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+}

@@ -17,14 +17,28 @@ nav2.style.visibility = "visible";
 sumBTN.addEventListener('click',function(e){//
     if (!sumMore){
         document.getElementById("sumExtra").style.display="block"; 
+       if(window.innerHeight<=900 && window.innerWidth<900){
+            document.getElementById("sumEX").style.top="120vh" 
+        }else if(window.innerWidth<600){
+            document.getElementById("sumEX").style.top="100vh" 
+        }else{            
+            document.getElementById("sumEX").style.top="65vh"        
+            
+        }
         sumBTN.innerText = "Less";
-   sumMore=true;
+        sumMore=true;
     }else{
-        document.getElementById("sumExtra").style.display="none"; 
+         document.getElementById("sumExtra").style.display="none"; 
+        if(window.innerHeight<=900 && window.innerWidth<900){
+            document.getElementById("sumEX").style.top="113vh" 
+        }else if(window.innerWidth<600){
+            document.getElementById("sumEX").style.top="94vh"
+        } else{
+            document.getElementById("sumEX").style.top="60vh"
+        }     
         sumBTN.innerText = "More";
         sumMore=false;
     }
-   
   
 })
 

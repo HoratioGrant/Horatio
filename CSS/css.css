@@ -5,6 +5,10 @@ body{
     z-index: 0;
     overflow-x:hidden;
     cursor: default;
+   
+}
+html{
+   scroll-behavior: smooth;
 }
 
 #background{
@@ -51,7 +55,7 @@ top: 100vh;
       list-style-type: none;
 }
 .nav li{
-  padding: 2vh;
+  padding: 1vh 2vh;
 }
 /*changing nav */
     /*nav left */
@@ -104,33 +108,30 @@ top: 100vh;
 position: absolute;
 top: 110vh;
 height: 100vh;
-width: 99vw;
-text-align: left;
+width: 80vw;
+
+margin: 0vw 10vw;
+
 
 }
-.aboutMe h2{
-text-align: center;
-}
-.aboutMe h3{
-     font-size: 2vw;
-    color: bisque;
+
+
+    .title{
+      font-size: 30px;
+      color: bisque;
     background-color:rgb(175, 110, 67,0.7);
      border-style: hidden;
-     border-bottom-right-radius: 1em;
-     border-top-right-radius: 1em;
-    padding-left: 1vw;
-    text-align: right;
-     padding: 2vh;
+     border-radius: 1em;
+     text-align: center;
+   padding: 7px 25px;
     }
-#title_sum{
-    width: 15vw; 
-    
-}
 #title_skill{
-    width: 10vw;  
+    width: fit-content;  
+    
 }
 #title_social{
     width:fit-content;  
+    
 }
 .summary{
     position: absolute;
@@ -157,15 +158,15 @@ text-align: center;
 }
 
 #moreButton{
-    background-color: non;
-    
+
     border: none;
     color: black;
  background-color: blanchedalmond;
 border-radius: 4px;
     text-align: center;
     display: inline-block;
-    font-size: 1vw;
+    font-size: 15px;
+   
 }
 
 #moreButton:hover{
@@ -185,36 +186,30 @@ a{
 #LinkedIn{
     width: 5vw;
     position: relative;
-    top: -200px;
-    left: 50px;
+    top: 25px;
+    visibility: hidden;
+    
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto auto ;
     color: rgba(0, 0, 0, 0.815);
-    width: 50vw;
-   position: relative;
-   left: 400px;
-    
+    width: 50vw;      
   }
   .grid-item {   
     font-size: 20px;
-    text-align: center;
+    text-align: center;     
   }
-  form{
-    position:relative;
-    left: 20vw;
-    
-    width: 500px;
-  }
+ 
+  
 
   .inp{
   
     background-color: rgba(0, 0, 0, 0.192);
   border-width: 3px;
     border-style: solid;
-    border-radius: 10px;
+    
     border-right: none;
     border-top: none;
     border-left: none;
@@ -224,7 +219,7 @@ a{
     padding: 2px;
     margin-bottom: 5px;
     height: 50px;
-    width: 500px;
+    width: 300px;
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
@@ -247,8 +242,8 @@ border-width: 3px;
 border-color: antiquewhite(223, 207, 207);
 width: 100px;
 padding: 10px;
-position: relative;
-left: 40%;
+
+
 
 
   }
@@ -261,3 +256,157 @@ left: 40%;
    top: 225vh;
     
   }
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.below{
+    margin-top:10px ;
+    text-align: center;
+}
+
+.dropbtn {
+    width: 7.5vw;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 7vw;
+    top: -25px;
+    background-color: #444444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: blanchedalmond;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {cursor:pointer;}
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    top: 30px;
+   
+    background-color:rgb(175, 110, 67);
+
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 a {
+    color: blanchedalmond;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content2 {display: block;}
+  
+
+/*  */
+
+@media(max-width:1400px){
+  #background{
+background-position: top;
+background-size:200%;
+}
+#Navigation li{
+  padding: 1vh 0px;
+}
+
+}
+@media (max-width: 800px) {
+
+
+.inp{
+  width:auto;
+  
+}
+.sub{
+  width: auto;
+}
+
+.dropdown-content{
+  visibility: hidden;
+}
+.dropdown-content2{
+  visibility: hidden;
+}
+
+#Navigation{
+  visibility: hidden;
+  background-color:#44444400;
+  height: 0vh;
+}
+#Navigation2{
+  visibility: visible;
+}
+
+
+#Navigation2 ul{
+  padding-left: 0px;
+  text-align: center;
+ 
+}
+}
+
+@media (max-width: 600px) {
+ .Social .grid-container{
+    grid-template-columns: auto   ;
+  }
+
+  .grid-item{
+    margin-right: 15px;
+  }
+.summary{
+  margin: 0px;
+  top: 75vh;
+  
+}
+
+#sumEX{
+top: 94vh;
+}
+
+
+.nav li{
+  padding: 0.5vh 1vh;
+}
+
+}
+
+@media (max-height: 900px) and (max-width: 900px) {
+  .summary{
+    margin: 0px;
+    top: 93vh;
+    
+  }
+  
+  #sumEX{
+  top: 113vh;
+  }
+
+  .Social{
+    top: 220vh;
+  }
+
+  .aboutMe{
+    top: 133vh;
+  }
+}

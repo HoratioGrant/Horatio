@@ -18,17 +18,19 @@
    <div class="grid-item">School Work</div>
    <div class="grid-item"> 
             <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank"><iframe class="website" id="PalarcheCapital" scrolling="no"
-                src="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php"   title="PalarcheCapital"> </iframe>
+                src="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php"   title="PalarcheCapital"> 
+            
+            </iframe>
             </a>    
             <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank">
                 <br> <button class="link" >Visit Website</button></a>
 </div>
 
    <div class="grid-item">
-       <a href="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assignment4/ass4in.php"><iframe class="website" id="SQL_Assignment" scrolling="no"
-            src="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assignment4/ass4in.php"   title="School SQL Assignment"> </iframe>
+       <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assignment4/ass4in.php"><iframe class="website" id="SQL_Assignment" scrolling="no"
+            src="https://granthor.dev.fast.sheridanc.on.ca/school/assignment4/ass4in.php"   title="School SQL Assignment"> </iframe>
         </a>
-        <a href="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assignment4/ass4in.php" target="_blank">
+        <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assignment4/ass4in.php" target="_blank">
         <br> <button class="link" >Visit Website</button></a>
    </div>
 
@@ -41,10 +43,10 @@
    </div>
 
    <div class="grid-item">
-        <a href="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assign1/"><iframe class="website" id="RPS" scrolling="no"
-            src="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assign1/"   title="RPS"> </iframe>
+        <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assign1/"><iframe class="website" id="RPS" scrolling="no"
+            src="https://granthor.dev.fast.sheridanc.on.ca/school/assign1/"   title="RPS"> </iframe>
         </a>
-        <a href="https://granthor.dev.fast.sheridanc.on.ca/syst10199/assign1/" target="_blank">
+        <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assign1/" target="_blank">
         <br> <button class="link" >Visit Website</button></a>
    </div>
 
