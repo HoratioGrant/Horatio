@@ -78,7 +78,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     
     <div class="header middle"><!-- header area -->
     <h1> Horatio Grant</h1>
-    <h2> Software Developer </h2>
+    <h2> Software & Web Developer </h2>
     
     </div> 
     
@@ -103,7 +103,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
                 <div class="dropdown">
           <a href="portfolio.php"><li class="dropbtn">Projects</li></a><!-- Another Website that displays school work and personal Projects -->
                 <div class="dropdown-content">
-                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank">Palarche Capital</a>
+                    <a href="https://palarchecapital.com/" target="_blank">Palarche Capital</a>
                     <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank">L_rdFlacko</a>
                 </div>
         </div> 
@@ -121,7 +121,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
            <div class="dropdown">
           <a href="portfolio.php"><li class="dropbtn">Projects</li></a><!-- Another Website that displays school work and personal Projects -->
                 <div class="dropdown-content2">
-                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank">Palarche Capital</a>
+                    <a href="https://palarchecapital.com/" target="_blank">Palarche Capital</a>
                     <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank">L_rdFlacko</a>
                 </div>
         </div> 
@@ -134,7 +134,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
   
 
     <div class="aboutMe text " id="AboutMe" >
-        <h3 class="center title"id="title_skill">Skills</h3>
+        <h3 class=" title"id="title_skill">Skills</h3>
 
             <div class="grid-container center">
             <div class="grid-item">
@@ -142,7 +142,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             </div>
 
             <div class="grid-item">
-                <p>Software Familiar with:</p>
+                <p>Familiar Software:</p>
             </div>
 
             <div class="grid-item">
@@ -156,8 +156,9 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
         </div>      
             
 
-        <div class="Social " id="contact" class="text">
-            <h3 class="center title" id="title_social">Connect with Me</h3>
+        <div class="Social text" id="contact" >
+            <hr id="line">
+            <h3 class=" title" id="title_social">Connect with Me</h3>
 
         <form  action="<?=$_SERVER['PHP_SELF']?>" autocomplete="off" method="POST">
         

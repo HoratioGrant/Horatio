@@ -17,52 +17,42 @@
    <div class="grid-item">Projects</div>
    <div class="grid-item">School Work</div>
    <div class="grid-item"> 
-            <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank"><iframe class="website" id="PalarcheCapital" scrolling="no"
-                src="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php"   title="PalarcheCapital"> 
             
-            </iframe>
+
+              <a href="https://palarchecapital.com/"  target="_blank">  <img  class="website" id="PalarcheCapital" src="PalarcheCapital.png" alt="">
+            
+      
             </a>    
-            <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/Aundre/homePage.php" target="_blank">
+            <a href="https://palarchecapital.com/" target="_blank">
                 <br> <button class="link" >Visit Website</button></a>
 </div>
 
-   <div class="grid-item">
-       <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assignment4/ass4in.php"><iframe class="website" id="SQL_Assignment" scrolling="no"
-            src="https://granthor.dev.fast.sheridanc.on.ca/school/assignment4/ass4in.php"   title="School SQL Assignment"> </iframe>
-        </a>
-        <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assignment4/ass4in.php" target="_blank">
-        <br> <button class="link" >Visit Website</button></a>
+<div class="grid-item sp2">
+   <a href="https://xd.adobe.com/view/e7cc5b75-fae8-449c-9f89-4fc53ac88700-b29f/?fullscreen" target="_blank"> 
+   <iframe width="359" height="856" src="https://xd.adobe.com/embed/e7cc5b75-fae8-449c-9f89-4fc53ac88700-b29f/?fullscreen" frameborder="0" allowfullscreen></iframe>      </a>
+        <a href="https://xd.adobe.com/view/e7cc5b75-fae8-449c-9f89-4fc53ac88700-b29f/?fullscreen" target="_blank">
+        <br> <button class="link" >Visit AdobeXd Mobile Template</button></a>
    </div>
 
    <div class="grid-item">
-   <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank"><iframe class="website" id="PalarcheCapital" scrolling="no"
-                src="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php"   title="PalarcheCapital"> </iframe>
+   <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/" target="_blank"><iframe class="website" id="PalarcheCapital" scrolling="no"
+                src="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/"   title="PalarcheCapital"> </iframe>
             </a>    
-            <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank">
+            <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/" target="_blank">
                 <br> <button class="link" >Visit Website</button></a>
    </div>
 
-   <div class="grid-item">
-        <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assign1/"><iframe class="website" id="RPS" scrolling="no"
-            src="https://granthor.dev.fast.sheridanc.on.ca/school/assign1/"   title="RPS"> </iframe>
-        </a>
-        <a href="https://granthor.dev.fast.sheridanc.on.ca/school/assign1/" target="_blank">
-        <br> <button class="link" >Visit Website</button></a>
-   </div>
+ 
 
    <div class="grid-item"></div>
 
-   <div class="grid-item">
-   <a href="https://xd.adobe.com/view/41baf6cd-ba71-4b63-b40c-cd464a24ff26-14e9/"><iframe class="website" id="RPS" scrolling="no"
-            src="https://xd.adobe.com/view/41baf6cd-ba71-4b63-b40c-cd464a24ff26-14e9/"   title="RPS"> </iframe>
-        </a>
-        <a href="https://xd.adobe.com/view/41baf6cd-ba71-4b63-b40c-cd464a24ff26-14e9/" target="_blank">
-        <br> <button class="link" >Visit Website</button></a>
-   </div>
+   
 
    <nav>
         <ul id="nav">
-          <li> <a href="resume.php">HomePage</a></li>
+          <li> <a href="resume">HomePage</a></li>
+          <li> <p>Visit Website to properly interact </p> </li>
+          
             
         </ul>
     </nav>
