@@ -35,11 +35,13 @@
    </div>
 
    <div class="grid-item">
-   <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/" target="_blank"><iframe class="website" id="PalarcheCapital" scrolling="no"
-                src="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/"   title="PalarcheCapital"> </iframe>
+   <a href="http://ohlrd.com" target="_blank"><iframe class="website" id="ohlrd" scrolling="no"
+                src="../COD"   title="ohlrd"> </iframe>
             </a>    
-            <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/" target="_blank">
-                <br> <button class="link" >Visit Website</button></a>
+
+            <a href="http://ohlrd.com" target="_blank">
+                <br> <button class="link" >Visit Website</button>
+            </a>
    </div>
 
  
@@ -50,12 +52,13 @@
 
    <nav>
         <ul id="nav">
-          <li> <a href="resume">HomePage</a></li>
+          <li> <a href="./">HomePage</a></li>
           <li> <p>Visit Website to properly interact </p> </li>
           
             
         </ul>
     </nav>
+   
 </body>
 </html> 
         

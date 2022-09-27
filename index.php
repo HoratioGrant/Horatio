@@ -3,17 +3,17 @@
 Horatio Grant
 Personal Webpage
 2022-05-12
-
+*/
 
 
 ob_start();
-//require("connect.php"); //get database login info
+require("connect.php"); //get database login info
 define ("MAX_NAME_LENGTH", 20);
 define ("MAXIMUM_EMAIL_LENGTH", 255);
 define ("MAXIMUM_MESSAGE_LENGTH", 255);
-
+ $error="";
 if($_SERVER['REQUEST_METHOD']=="POST"){
-    $error="";
+   
     $dbConn = new PDO("mysql:host = $hostname; dbname=$dbname",$user,$password);
   
     //captured info
@@ -45,23 +45,18 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 
     if($error==""){
     try{
-        mail("granthoratio@gmail.com","NEW Contact Request",$msg);
-        $command="INSERT INTO contactusmessages (email,UserName,UserMessage,createdON ) VALUES(?,?,?,?)";//change insert message
+        $command="INSERT INTO UserMessage(email,Name,UserMessage,createdON ) VALUES(?,?,?,?)";//change insert message
         $stmt= $dbConn->prepare($command);
-        $execOk = $stmt->execute(array($email,$name,$message,$date));
-
-        $msg = "TEST from website";
-
-        $msg = wordwrap($msg,70);
-
-      
+        $execOk = $stmt->execute(array($email,$name,$message,$date));  
         
     }catch (PDOException $e){
-
+        $error.="Fproblem";
     }
+}else{
+
 }
 }
-*/
+
 ?>
 
 <!DOCTYPE html>
@@ -99,12 +94,12 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     <nav class="nav" id="Navigation" >
         <ul>
          
-           <a href="#AboutMe"> <li>About Me</li></a>
+           <a href="#AboutMe"> <li>Skills</li></a>
                 <div class="dropdown">
-          <a href="portfolio.php"><li class="dropbtn">Projects</li></a><!-- Another Website that displays school work and personal Projects -->
+          <a href="portfolio"><li class="dropbtn">Projects</li></a><!-- Another Website that displays school work and personal Projects -->
                 <div class="dropdown-content">
                     <a href="https://palarchecapital.com/" target="_blank">Palarche Capital</a>
-                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank">L_rdFlacko</a>
+                    <a href="http://ohlrd.com" target="_blank">L_rdFlacko</a>
                 </div>
         </div> 
                  
@@ -116,13 +111,13 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
   
      <nav class="nav" id="Navigation2">
         <ul>
-           <a href="resume.php"> <li>Home</li></a>
-           <a href="#AboutMe"> <li>About Me</li></a>
+          
+           <a href="#AboutMe"> <li>Skills</li></a>
            <div class="dropdown">
           <a href="portfolio.php"><li class="dropbtn">Projects</li></a><!-- Another Website that displays school work and personal Projects -->
                 <div class="dropdown-content2">
                     <a href="https://palarchecapital.com/" target="_blank">Palarche Capital</a>
-                    <a href="https://granthor.dev.fast.sheridanc.on.ca/projects/COD/home.php" target="_blank">L_rdFlacko</a>
+                    <a href="http://ohlrd.com" target="_blank">L_rdFlacko</a>
                 </div>
         </div> 
           <a href="https://github.com/HoratioGrant/Horatio" target="_blank">  <li>Source Code</li></a><!-- github stuff -->
@@ -169,12 +164,16 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             </div>
             <div class="grid-item">
              
-               <input class="inp" type="text" name="input_email" placeholder="Email">
+               <input class="inp" type="email" name="input_email" placeholder="Email">
             </div>
             <div class="grid-item">
                
                 <input class="inp" type="text" name="input_message" placeholder="Message">
             </div>
+            <div>
+       
+            </div>
+           
         </div>
              <div class="below center" >
                 <input class="sub center " type="submit" value="Send">
@@ -187,7 +186,9 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
                 
          
     </div>
-    
+    <footer id="footer">
+<p>&copy; Horatio 2022</p>
+</footer>
 </div>
 
 

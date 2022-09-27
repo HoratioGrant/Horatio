@@ -4,9 +4,11 @@ var sumMore=false
 var nav = document.getElementById("Navigation");
 var nav2=document.getElementById("Navigation2");
 var sumBTN = document.getElementById("moreButton");
+var footer = document.getElementById("footer");
 
 
-nav.style.width="10vw"
+footer.style.visibility="visible";
+
 document.addEventListener('scroll',function(e){//code runs everytime user scrolls
     
          if(!isInViewport(nav)){//if nav cant be seen
